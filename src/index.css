@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "bulletin";
+  src: url("/fonts/bulletin.ttf");
+}
+.pixel-font {
+  font-family: "bulletin";
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+@keyframes wiggle {
+  0%,100% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(-3deg);
+  }
+
+  75% {
+    transform: rotate(3deg);
+  }
+}
+
+.wiggle-hover:hover {
+  animation: wiggle 0.3s ease-in-out 2;
+}
+
+.frame {
+  min-height: calc(100vh - 4rem);
+  border: 2px solid white;
+  outline: 1px solid #9b9b9b;
+  outline-offset: 6px;
+  padding: 2rem;
+  margin: 4rem;
+}
