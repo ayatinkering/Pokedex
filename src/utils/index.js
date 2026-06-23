@@ -1,73 +1,51 @@
-//cache so API doesnt get overwhelmed
-
-export const first151Pokemon = [
-    "Bulbasaur", "Ivysaur", "Venusaur", "Charmander", "Charmeleon", "Charizard", "Squirtle", "Wartortle", "Blastoise",
-    "Caterpie", "Metapod", "Butterfree", "Weedle", "Kakuna", "Beedrill", "Pidgey", "Pidgeotto", "Pidgeot",
-    "Rattata", "Raticate", "Spearow", "Fearow", "Ekans", "Arbok", "Pikachu", "Raichu", "Sandshrew", "Sandslash",
-    "Nidoran♀", "Nidorina", "Nidoqueen", "Nidoran♂", "Nidorino", "Nidoking", "Clefairy", "Clefable", "Vulpix",
-    "Ninetales", "Jigglypuff", "Wigglytuff", "Zubat", "Golbat", "Oddish", "Gloom", "Vileplume", "Paras", "Parasect",
-    "Venonat", "Venomoth", "Diglett", "Dugtrio", "Meowth", "Persian", "Psyduck", "Golduck", "Mankey", "Primeape",
-    "Growlithe", "Arcanine", "Poliwag", "Poliwhirl", "Poliwrath", "Abra", "Kadabra", "Alakazam", "Machop", "Machoke",
-    "Machamp", "Bellsprout", "Weepinbell", "Victreebel", "Tentacool", "Tentacruel", "Geodude", "Graveler", "Golem",
-    "Ponyta", "Rapidash", "Slowpoke", "Slowbro", "Magnemite", "Magneton", "Farfetch'd", "Doduo", "Dodrio",
-    "Seel", "Dewgong", "Grimer", "Muk", "Shellder", "Cloyster", "Gastly", "Haunter", "Gengar", "Onix", "Drowzee",
-    "Hypno", "Krabby", "Kingler", "Voltorb", "Electrode", "Exeggcute", "Exeggutor", "Cubone", "Marowak", "Hitmonlee",
-    "Hitmonchan", "Lickitung", "Koffing", "Weezing", "Rhyhorn", "Rhydon", "Chansey", "Tangela", "Kangaskhan",
-    "Horsea", "Seadra", "Goldeen", "Seaking", "Staryu", "Starmie", "Mr. Mime", "Scyther", "Jynx", "Electabuzz",
-    "Magmar", "Pinsir", "Tauros", "Magikarp", "Gyarados", "Lapras", "Ditto", "Eevee", "Vaporeon", "Jolteon",
-    "Flareon", "Porygon", "Omanyte", "Omastar", "Kabuto", "Kabutops", "Aerodactyl", "Snorlax", "Articuno",
-    "Zapdos", "Moltres", "Dratini", "Dragonair", "Dragonite", "Mewtwo", "Mew"
-]
-
-
 export const pokemonTypeColors = {
     normal: {
-        color: "#6C6C6C",
-        background: "#A8A77A"
+        color: "#ffffffff",
+        background: "#8e8e63ff"
     },
     fire: {
         color: "#FFFFFF",
-        background: "#EE8130"
+        background: "#f87d1fff"
     },
     water: {
         color: "#FFFFFF",
-        background: "#6390F0"
+        background: "#2e7692ff"
     },
     electric: {
         color: "#000000",
-        background: "#F7D02C"
+        background: "#fccc0cff"
     },
     grass: {
         color: "#FFFFFF",
-        background: "#7AC74C"
+        background: "#569e14ff"
     },
     ice: {
         color: "#000000",
-        background: "#96D9D6"
+        background: "#b2f9f5ff"
     },
     fighting: {
         color: "#FFFFFF",
-        background: "#C22E28"
+        background: "#881b17ff"
     },
     poison: {
         color: "#FFFFFF",
-        background: "#A33EA1"
+        background: "#b544b3ff"
     },
     ground: {
         color: "#FFFFFF",
-        background: "#E2BF65"
+        background: "#896407ff"
     },
     flying: {
         color: "#000000",
-        background: "#A98FF3"
+        background: "#a98ff3ff"
     },
     psychic: {
         color: "#FFFFFF",
-        background: "#F95587"
+        background: "#dc4e79ff"
     },
     bug: {
         color: "#000000",
-        background: "#A6B91A"
+        background: "#7b843bff"
     },
     rock: {
         color: "#FFFFFF",
@@ -79,19 +57,19 @@ export const pokemonTypeColors = {
     },
     dragon: {
         color: "#FFFFFF",
-        background: "#6F35FC"
+        background: "#5014e7ff"
     },
     dark: {
         color: "#FFFFFF",
-        background: "#705746"
+        background: "#693f2eff"
     },
     steel: {
         color: "#000000",
-        background: "#B7B7CE"
+        background: "#8f8f90ff"
     },
     fairy: {
         color: "#000000",
-        background: "#D685AD"
+        background: "#f3bad6ff"
     }
 }
 
